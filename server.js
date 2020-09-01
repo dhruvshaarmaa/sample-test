@@ -1,6 +1,5 @@
 const express=require("express");
 const app=express();
-process.env.PORT=4041;
 const port=process.env.PORT || 4040;
 
 app.get("/",(req,res)=>{
